@@ -13,7 +13,7 @@ BIOS MSI:
 
 <img src="./image/MSI_1.png" alt="MSI1">
 <img src="./image/MSI_OC_2.png" alt="MSI2">
-<img src="./image/MSI_VT_3.png" alt=MSI3>
+<img src="./image/MSI_VT_33.png" alt=MSI3>
 
 
 
