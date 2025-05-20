@@ -5,7 +5,7 @@ Start VirtualBox for Linux
     а. Открыть Диспетчер задач: CTRL + SHIFT + ESC или CTRL + ALT + DELETE.
     
     b. Перейти Производительность: 
-    <img src="./image/Task Manager.PNG" alt="Диспетчер задач">
+    <img src="./image/Task Manager.png" alt="Диспетчер задач">
     c. Если виртуализация выключена, то нужно зайти в BIOS:
         
         - Перезапустить компютер, вход BIOS: DEL, F2, F8, F9, F10
