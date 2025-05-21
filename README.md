@@ -42,6 +42,10 @@ BIOS HP:
 то вам надо установить
     <a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022" target="_blank"> Microsoft Visual C++ Redistributable 2019</a>
 
-b. Путь установки ПРОГРАММЫ диск C:/
+b. Путь установки ПРОГРАММЫ диск C:\
 
-<img src="./image/Path.png" alt="CD:/">
+<img src="./image/Path.png" alt="CD:\">
+
+c. Виртуальную машину из .vdi .vhd .vmdk .hdd .qcow .qemu В ПАПКУ ДИСК D:\
+
+<img src="./image/HDDD.png" alt="HDD">
