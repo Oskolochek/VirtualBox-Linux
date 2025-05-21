@@ -32,5 +32,16 @@ BIOS HP:
 
 НЕ ЗАБЫВАТЬ СОХРАНИТЬ ПЕРЕД ТЕМ ВЫХОДИТЬ
 
-2. Установка 
-<a href="https://www.virtualbox.org/" target="_blank">VirtualBox</a>
+2. Скачать и установить
+<a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">VirtualBox</a>
+    
+    a. Если выдасть это
+
+    <img src="./image/VC_RE_CPP.png" alt="VC">
+
+то вам надо установить
+    <a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022" target="_blank"> Microsoft Visual C++ Redistributable 2019</a>
+
+b. Путь установки ПРОГРАММЫ диск C:/
+
+<img src="./image/Path.png" alt="CD:/">
