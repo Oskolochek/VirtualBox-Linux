@@ -47,6 +47,25 @@ b. Путь установки ПРОГРАММЫ диск C:\
 
 <img src="./image/Path.png" alt="CD:\">
 
+1. Если у вас старая железа, не работает и нету win32api:
+
+<img src="./image/err.png" alt="err">
+
+Установить 
+<a href="https://www.python.org/downloads/" target="_blank">python</a>
+
+в Командной строке(Админ) 
+
+        - py -m pip install pywin32 
+
+Вторая команда:
+
+    - python.exe -m pip install --upgrade pip
+если это не работает
+
+    - py -m pip install --upgrade pip
+
+
 c. Виртуальную машину из .vdi .vhd .vmdk .hdd .qcow .qemu В ПАПКУ ДИСК D:\
 
 <img src="./image/HDDD.png" alt="HDD">
