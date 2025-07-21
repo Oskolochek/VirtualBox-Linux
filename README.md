@@ -54,7 +54,7 @@ b. Путь установки ПРОГРАММЫ диск C:\
 Установить 
 <a href="https://www.python.org/downloads/" target="_blank">python</a>
 
-в Командной строке(Админ) 
+в Командной строке(Админ) или Windows PowerShell x86/x64(Админ) 
 
         - py -m pip install pywin32 
 
@@ -73,6 +73,10 @@ c. Виртуальную машину из .vdi .vhd .vmdk .hdd .qcow .qemu В 
 3. Установка для Linux Дистрибутив.
 
 a. Для начинающих: <a href="https://ubuntu.com/download/desktop" target="_blank">Ubuntu Desktop</a> или <a href="https://ubuntu.com/download/server" target="_blank">Ubuntu Server</a>;
+
+!!! Лучший вариант это Ubuntu c LTS !!!
+
+LTS (Long Term Support): Получает поддержку в течение 5 лет.
 
 <a href="https://linuxmint.com/download_all.php" target="_blank">Linux Mint</a>
 
