@@ -1,12 +1,16 @@
 # VirtualBox-Linux
-Start VirtualBox for Linux.
+Start VirtualBox for 
+<a href="https://ru.wikipedia.org/wiki/Linux" target="blank">Linux</a>
+.
 1. Проверить Виртуализацию на Desktop:
    
-    а. Открыть Диспетчер задач: CTRL + SHIFT + ESC или CTRL + ALT + DELETE.
+    а. Открыть Диспетчер задач: CTRL + SHIFT + ESC или CTRL + ALT + DELETE потом выбираем --> "Диспетчер задач".
     
     b. Перейти Производительность: 
     <img src="./image/Task Manager.png" alt="Диспетчер задач">
-    c. Если виртуализация выключена, то нужно зайти в BIOS:
+    c. Если виртуализация выключена, то нужно зайти в 
+    <a href="https://ru.wikipedia.org/wiki/BIOS" target="blank">BIOS</a>
+    :
         
         - Перезапустить компютер, вход BIOS: DEL, F2, F8, F9, F10
 BIOS MSI:
@@ -54,7 +58,7 @@ b. Путь установки ПРОГРАММЫ диск C:\
 Установить 
 <a href="https://www.python.org/downloads/" target="_blank">python</a>
 
-в Командной строке(Админ) или Windows PowerShell x86/x64(Админ) 
+После установки Python, в Командной строке(Админ) или Windows PowerShell x86/x64(Админ) 
 
         - py -m pip install pywin32 
 
@@ -111,20 +115,42 @@ c. Требования к оборудованию для установки Li
 
 d. Подключение образ Дополнительный ОС
 
-1. ВАМ НУЖНО ВЫБРАТЬ РАСКЛАДКУ USA: <img src="./image/USA.png" alt="US1"> 
+1. ВАМ НУЖНО ВЫБРАТЬ РАСКЛАДКУ USA (Только для Ubuntu!): <img src="./image/USA.png" alt="US1"> 
 
-а потом после установки Ubuntu, заходим настройки -> системы языка
+а потом после установки, заходим в настройки -> Клавиатура
 
- <img src="./image/USA_2.png" alt="US2">
+ <img src="./image/USA2.png" alt="US2">
 
-<img src="./image/USA_3.png" alt="US3">
-
+Менять языки при помощи клавиши Win + Spacebar(Пробел).
 
 2. 
-    Если у вас не получится подключить в Ubuntu, то вам надо: 
+    Если у вас не получится подключить или не работает "образ дополнений гостевой ос", то вам надо: 
 
    Установить на Виртуальную машину bzip2 !!!
 
-       - $ sudo apt update
+     1. Открываем терминал Ctrl + Alt + T
 
-       - $ sudo apt install bzip2
+     2. В терминале пишим эту строку
+
+       - $ sudo apt update && sudo apt install bzip2 -y
+
+      <a href="https://ru.wikipedia.org/wiki/Sudo" target="blank">sudo</a>
+      ( Substitute User and do ) - запуск команды с правами администратора (root);
+
+      <a href="https://ru.wikipedia.org/wiki/Advanced_Packaging_Tool" target="blank">apt</a>
+      ( Advanced Packaging Tool ) - пакетный менежер на основе 
+    <a href="https://ru.wikipedia.org/wiki/Debian" target="blank">Debian</a>;
+
+    update - Обновление баз данных пакетов;
+
+    && - Логический оператор "И". Если первая команда выполнится успешно, то выполнится вторая;
+
+    install bzip2 - Установить пакет bzip2;
+
+    -y -автоматически отвечает "yes" на запрос подтверждения (пропускает вопрос "Do you want to continue? [Y/n]").
+
+2.1 Потом в Oracle VituralBox заходим в "Устройства" --> "подключить образ дополнений гостевой ос"
+
+Выбираем образ диска (это VBox_GAs_"версия программы Oracle VituralBox") и нажимаем "Запустить Центр приложений"
+
+<img src="./image/CD.PNG" alt="CD">
